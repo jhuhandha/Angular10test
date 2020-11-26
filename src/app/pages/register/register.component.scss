@@ -1,0 +1,20 @@
+.container-register {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.image {
+    flex: 1;
+    background-image: url('http://localhost:4200/assets/images/register.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.form {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
